@@ -1,0 +1,20 @@
+export default{
+    headershow:({commit})=>{
+        commit('headershow')
+    },
+    headerhide:({commit})=>{
+		commit('headerhide')
+	},
+	loadingshow:({commit})=>{
+		commit('loadingshow')
+	},
+	loadinghide:({commit})=>{
+		commit('loadinghide')
+	},
+	footershow:({commit})=>{
+		commit('footershow')
+	},
+	footerhide:({commit})=>{
+		commit('footerhide')
+	}
+}
